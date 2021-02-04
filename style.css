@@ -1,0 +1,149 @@
+html {
+    font-family: 'Roboto Condensed';
+}
+
+body{
+    background-color: #404040;
+    color: white;
+}
+.boards{
+    display: flex;
+    margin-top: 32px;
+}
+.board{
+    background-color: #383838;
+    border: 1px solid #F0F0F011;
+    border-radius: 4px;
+    margin: 0 16px;
+}
+.board h3{
+    padding: 16px;
+    margin: 0;
+    color: #4b9fff;
+}
+.dropzone{
+    padding: 16px;
+    min-width: 332px;
+    min-height: 200px;
+}
+.card{
+    background-color: #3d3d3d;
+    padding: 16px;
+    box-shadow: 0 2px 2px -2px #4b9fff;
+    width: 250px;
+    margin: 25px 0;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+}
+.statusDelete{
+    display: flex;
+    justify-content: space-between;
+}
+.content{
+    background-color: #383838;
+    flex: 1;
+}
+.deleteButton{
+    height: 25px;
+    width: 25px;
+    background-color:  #4b9fff;
+    border-radius: 100%;
+
+}
+.status{
+    width: 30px;
+    height: 8px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+}
+
+.green{
+    background-color: #4bffd2;
+}
+
+.yellow{
+    background-color: #ffe44b;
+}
+
+.red{
+    background-color: #ff4b78;
+}
+
+.highlight {
+    background-color: #423b3bb9;
+}
+
+.cards, .dropzone{
+    transition: 400ms;
+}
+
+.is-dragging{
+    cursor: move;
+    opacity: 0.3;
+
+}
+.over{
+    background-color:#4b5e59b2
+}
+
+.nextJob{
+    background-color: #383838;
+    border: 1px solid #F0F0F011;
+    border-radius: 4px;
+    margin: 0 16px;
+    max-width: 364px;
+    margin-top: 16px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    color: white;
+}
+.nextJob h3{
+    color: #4b9fff;
+    width: 110px;
+    padding: 0 10px;
+
+}
+.nextTask{
+    margin: auto;
+    background-color: #777777;
+    border: none;
+    height: 3em;
+    width: 250px;
+    color:white;
+    font-weight: 900;
+    margin:0 10px;
+    outline: none;
+}
+input {
+    padding-left: 15px;
+}
+input[type=text]:focus {
+    border: 1px solid #4b9fff;
+    background-color: #4b9fff;
+    color: white;
+
+   
+}
+
+::placeholder {
+    color: white;
+  }
+.addButton, .addButton2{
+    border: none;
+    min-width: 60px;
+    height: 42px;
+    background-color: #4b9fff;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 3em;
+    
+
+}
