@@ -51,6 +51,9 @@ body{
     width: 25px;
     background-color:  #4b9fff;
     border-radius: 100%;
+    text-align: center;
+    padding: auto;
+    margin-bottom: 5px;
 
 }
 .status{

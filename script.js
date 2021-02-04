@@ -24,6 +24,7 @@ function addNextTask() {
         divStatus.classList.add('status')
         divContent.classList.add('content')
         divDelete.classList.add('deleteButton')
+        divDelete.innerHTML = 'x'
         divStatusDelete.classList.add('statusDelete')
         divCard.setAttribute('draggable', true)
         divContent.innerHTML = newTask
